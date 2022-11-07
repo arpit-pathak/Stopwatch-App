@@ -27,3 +27,10 @@ const startStopwatch = () => {
 const stopStopwatch = () => {
     clearInterval(intervalId);
 };
+
+const resetStopwatch = () => {
+    sec = 0;
+    min = 0;
+    hr = 0;
+    clock.innerText = "00 : 00 : 00";
+}
